@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as pyplot
+import matplotlib as plt
 
 data= pd.read_csv('ventas_vehiculos .csv')
 st.header('TABLA PRINCIPAL')
